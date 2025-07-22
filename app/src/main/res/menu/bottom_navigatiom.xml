@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:iconTint="@color/ColorWhite"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/nav_quiz"
+        android:icon="@drawable/ic_quiz"
+        android:iconTint="@color/ColorWhite"
+        android:title="Quiz"/>
+
+    <item
+        android:id="@+id/nav_past"
+        android:icon="@drawable/ic_past"
+        android:iconTint="@color/ColorWhite"
+        android:title="Past" />
+    <item
+        android:id="@+id/nav_Account"
+        android:icon="@drawable/ic_account"
+        android:iconTint="@color/ColorWhite"
+        android:title="Account" />
+</menu>

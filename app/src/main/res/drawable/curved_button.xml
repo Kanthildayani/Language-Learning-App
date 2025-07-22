@@ -1,0 +1,24 @@
+<!-- res/drawable/curved_button.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Pressed state -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#00b4d8"/>
+            <corners android:radius="30dp"/>
+            <stroke android:width="2dp" android:color="#03045e"/>
+        </shape>
+    </item>
+
+    <!-- Default state -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#caf0f8"/>
+            <corners android:radius="30dp"/>
+            <stroke android:width="2dp" android:color="#03045e"/>
+            <padding android:left="10dp"
+                android:top="10dp"
+                android:right="10dp"
+                android:bottom="10dp" />
+        </shape>
+    </item>
+</selector>

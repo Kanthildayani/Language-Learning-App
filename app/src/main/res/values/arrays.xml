@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="card_colors">
+        <item>@color/colorCard1</item>
+        <!-- Add more color items as needed -->
+    </array>
+</resources>

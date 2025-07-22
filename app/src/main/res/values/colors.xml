@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ColorAccent">#03DAC5</color>
+    <color name="ColorPrimary">#FAC110</color>
+    <color name="ColorPrimaryDark">#FAC110</color>
+    <color name="ColorWhite">#FFFFFF</color>
+    <color name="ColorBlack">#121111</color>
+    <color name="ColorGrey">#676060</color>
+    <color name="yellow">#FAC110</color>
+    <color name="light_yellow">#EFD995</color>
+    <color name = "Red">#F19494</color>
+    <color name = "purple">#E395F1</color>
+    <color name = "green">#16DC1E</color>
+    <color name = "lightgreen">#88E88C</color>
+    <color name="light_blue">#96FFEF</color>
+    <color name="dark_blue">#004C88</color>
+    <color name = "blue">#03A9F4</color>
+    <color name = "brown">#F8AE1B</color>
+    <color name="shrine_pink_100">#FEC9C9</color>
+    <color name="shrine_pink_900">#442C2E</color>
+    <color name="faq_question_color">#EF071A</color>
+    <color name="faq_answer_color">#1EEF07</color>
+    <color name="faq_arrow_color">#ECD404</color>
+    faq_title_background
+    <color name="faq_title_background">#2196F3</color>
+    <color name="my_color">#2196F3</color>
+    <color name="shrine_red">#E30209</color>
+    <color name="colorCard1">#FF5733</color>
+    <color name="colorCard2">#33FF57</color>
+        <color name="primary_dark">#03045E</color>
+        <color name="primary">#00B4D8</color>
+        <color name="primary_light">#CAF0F8</color>
+        <color name="text_black">#000000</color>
+        <color name="text_white">#FFFFFF</color>
+        <color name="primaryDark">#03045E</color>
+        <color name="accent">#00B4D8</color>
+        <color name="hover">#00A0C4</color>
+        <color name="lightBackground">#CAF0F8</color>
+        <color name="white">#FFFFFF</color>
+        <color name="black">#000000</color>
+
+
+
+</resources>

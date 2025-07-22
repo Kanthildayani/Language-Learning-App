@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_background"
+    android:padding="24dp">
+
+    <!-- Logout Icon -->
+    <ImageView
+        android:id="@+id/imageLogout"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logout"
+        android:tint="#03045E"
+        android:contentDescription="Logout Icon" />
+
+    <!-- Logout Confirmation Text -->
+    <TextView
+        android:id="@+id/textViewMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageLogout"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:text="Oh! Are you sure you want to logout?"
+        android:textColor="#03045E"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:fontFamily="@font/arbutus" />
+
+    <!-- "Yes" Button -->
+    <Button
+        android:id="@+id/textViewYes"
+        android:layout_width="160dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/textViewMessage"
+        android:layout_marginTop="24dp"
+        android:layout_centerHorizontal="true"
+        android:text="Yes, Logout"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_background_yellow"
+        android:textStyle="bold" />
+
+    <!-- "No" Button -->
+    <Button
+        android:id="@+id/textViewNo"
+        android:layout_width="160dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/textViewYes"
+        android:layout_marginTop="12dp"
+        android:layout_centerHorizontal="true"
+        android:text="No, Stay"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_background_red"
+        android:textStyle="bold" />
+
+</RelativeLayout>
